@@ -1,5 +1,7 @@
 package com.github.pselamy;
 
+import static com.google.common.truth.Truth.assertThat;
+
 import com.google.auto.value.AutoValue;
 import org.junit.runners.JUnit4;
 import org.junit.Test;

@@ -3,5 +3,6 @@ java_test(
   srcs = ["AutoValueTest.java"],
   deps = [
     "//:autovalue",
+    "@maven//:com_google_truth_truth",
   ],
 )

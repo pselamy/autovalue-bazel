@@ -21,15 +21,4 @@ public class AutoValueTest {
     assertThat(actual.foo()).equals(FOO);
     assertThat(actual.bar()).equals(BAR);
   }
-  
-  @AutoValue
-  abstract static class ObjectUnderTest {
-    private static ObjectUnderTest create(String foo, int bar) {
-      return new AutoValueTest_ObjectUnderTest(foo, bar);
-    }
-    
-    abstract String foo();
-    
-    abstract int bar();
-  }
 }

@@ -18,8 +18,8 @@ public class AutoValueTest {
     ObjectUnderTest actual = ObjectUnderTest.create(FOO, BAR);
     
     // Assert
-    assertThat(actual.foo()).equals(FOO);
-    assertThat(actual.bar()).equals(BAR);
+    assertThat(actual.foo()).isEqualTo(FOO);
+    assertThat(actual.bar()).isEqualTo(BAR);
   }
     
   @AutoValue

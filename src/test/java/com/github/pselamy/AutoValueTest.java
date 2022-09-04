@@ -2,6 +2,8 @@ package com.github.pselamy;
 
 import com.google.auto.value.AutoValue;
 import org.junit.runners.JUnit4;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 
 @RunWith(JUnit4.class)
 public class AutoValueTest {

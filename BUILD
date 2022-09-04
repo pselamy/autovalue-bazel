@@ -13,7 +13,7 @@ java_library(
         ":autovalue_plugin",
     ],
     neverlink = 1,
-    visibility = ["//:__subpackages__"],
+    visibility =  ["//visibility:public"],
     exports = [
         "@maven//:com_google_auto_value_auto_value",
         "@maven//:com_google_auto_value_auto_value_annotations",
